@@ -1,1 +1,14 @@
-
+[project]
+name = "adaptive-neural-decoder"
+version = "0.1.0"
+description = "EEG motor-imagery decoding and cross-subject adaptation"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy",
+    "scipy",
+    "pandas",
+    "scikit-learn",
+    "mne",
+    "matplotlib",
+    "seaborn",
+]
